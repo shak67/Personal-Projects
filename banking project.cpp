@@ -4,7 +4,7 @@
 #include <string>
 using namespace std;
 
-/*class BankAccount
+class BankAccount
 {
 private:
     int acnum;
@@ -90,13 +90,7 @@ int main()
     cout << endl << endl;
     NC.display(NC);
 }
-*/
+
 
 // program might run inot errors when doing multiple transaction because of the memory place of money
-// maybe track the numbers of withdrawls and deposits 
-
-int main() {
-    string x;
-    cout << "Whats the name of your bestfriend?: ";
-    cin >> x;
-}
+// maybe track the numbers of withdrawls and deposits
